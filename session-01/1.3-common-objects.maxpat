@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 920.0, 106.0, 524.0, 401.0 ],
+		"rect" : [ 188.0, 215.0, 558.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,13 +42,62 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
-					"hidden" : 1,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.0, 278.5, 104.0, 23.0 ],
+					"text" : "\"i\" for integer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 195.0, 318.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Bold",
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.0, 186.0, 104.0, 23.0 ],
+					"text" : "\"f\" for flonum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-2",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 195.0, 227.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 186.0, 183.0, 23.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 345.0, 186.0, 183.0, 23.0 ],
 					"text" : "\"l\" for Ableton live objects"
 				}
 
@@ -62,7 +111,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 199.0, 222.0, 48.0, 136.0 ],
+					"patching_rect" : [ 345.0, 222.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -113,7 +162,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 86.0, 125.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "\"m\" for  message"
 				}
 
