@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 213.0, 1123.0, 554.0 ],
+		"rect" : [ 321.0, 217.0, 995.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.0, 89.0, 431.0, 152.0 ]
+					"patching_rect" : [ 438.0, 89.0, 431.0, 162.0 ]
 				}
 
 			}

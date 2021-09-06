@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 417.0, 99.0, 1235.0, 850.0 ],
+		"rect" : [ 199.0, 115.0, 977.0, 852.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bufsize" : 256,
+					"calccount" : 2,
+					"id" : "obj-1",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 157.5, 608.0, 242.5, 215.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 161.5, 387.0, 29.5, 22.0 ],
+					"patching_rect" : [ 157.5, 572.0, 29.5, 22.0 ],
 					"text" : "+~"
 				}
 
@@ -101,12 +113,12 @@
 					"fontface" : 1,
 					"fontsize" : 14.0,
 					"id" : "obj-20",
-					"linecount" : 12,
+					"linecount" : 17,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 99.0, 383.0, 194.0 ],
-					"text" : "\"Inspired by a visit to Brussels' world's fair in 1958, where she both hears Edgard Varèse's Poème Electronique and encounters a multimedia planetarium, Syv Cirkler (Seven Circles) represents the movements of the stars in an elegant array of pulses and drones; it sounds both reassuringly intuitive and deeply inscrutable, and, more than half a century after it was made, it's still hard to believe that it has not been beamed back to us from centuries in the future.\"\n\nhttps://pitchfork.com/thepitch/1002-else-marie-pade-denmarks-grandmother-of-electronic-music-is-dead-at-91"
+					"patching_rect" : [ 17.0, 99.0, 375.0, 272.0 ],
+					"text" : "\"Else Marie Pade was the first person in Denmark to make music using electronics. A radio producer, she began composing with tape and oscillators in the 1950s..\"\n\n\"Inspired by a visit to Brussels' world's fair in 1958, where she both hears Edgard Varèse's Poème Electronique and encounters a multimedia planetarium, Syv Cirkler (Seven Circles) represents the movements of the stars in an elegant array of pulses and drones; it sounds both reassuringly intuitive and deeply inscrutable, and, more than half a century after it was made, it's still hard to believe that it has not been beamed back to us from centuries in the future.\"\n\nhttps://pitchfork.com/thepitch/1002-else-marie-pade-denmarks-grandmother-of-electronic-music-is-dead-at-91"
 				}
 
 			}
@@ -273,7 +285,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 14.5, 358.0, 73.0, 22.0 ],
+					"patching_rect" : [ 5.5, 488.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -292,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.5, 387.0, 81.0, 22.0 ],
+					"patching_rect" : [ 5.5, 608.0, 81.0, 22.0 ],
 					"text" : "loadmess -12"
 				}
 
@@ -306,7 +318,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 90.5, 387.0, 60.0, 137.0 ],
+					"patching_rect" : [ 86.5, 608.0, 60.0, 137.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -329,7 +341,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.5, 553.0, 35.0, 22.0 ],
+					"patching_rect" : [ 86.5, 773.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -342,22 +354,24 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 327.0, 24.0, 24.0 ]
+					"patching_rect" : [ 87.0, 456.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"domain" : [ 60.0, 24000.0 ],
+					"domain" : [ 40.0, 24000.0 ],
 					"id" : "obj-10",
 					"interval" : 10,
+					"logamp" : 0,
 					"logfreq" : 1,
 					"maxclass" : "spectroscope~",
 					"monochrome" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 326.0, 1003.0, 507.0 ],
+					"patching_rect" : [ 409.0, 326.0, 804.0, 497.0 ],
+					"range" : [ 0.0, 0.5 ],
 					"scroll" : 2,
 					"sono" : 1
 				}
@@ -370,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 91.0, 327.0, 100.0, 22.0 ],
+					"patching_rect" : [ 87.0, 488.0, 100.0, 22.0 ],
 					"text" : "play~ sivCirkler 2"
 				}
 
@@ -407,8 +421,18 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.40000656247139, 0.400102913379669, 0.998559355735779, 1.0 ],
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.40000656247139, 0.400102913379669, 0.998559355735779, 1.0 ],
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 171.0, 420.0, 200.0, 420.0, 200.0, 342.0, 200.0, 342.0, 200.0, 321.0, 219.5, 321.0 ],
+					"midpoints" : [ 167.0, 600.0, 403.0, 600.0, 403.0, 321.0, 418.5, 321.0 ],
+					"order" : 0,
 					"source" : [ "obj-24", 0 ]
 				}
 
