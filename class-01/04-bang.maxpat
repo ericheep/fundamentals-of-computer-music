@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 380.0, 267.0, 936.0, 458.0 ],
+		"rect" : [ 310.0, 279.0, 1273.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 777.0, 244.0, 67.0, 22.0 ],
+					"text" : "delay 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 777.0, 188.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 777.0, 121.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 638.0, 244.0, 67.0, 22.0 ],
+					"text" : "delay 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 638.0, 188.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
@@ -47,7 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 635.0, 359.0, 65.0, 22.0 ]
+					"patching_rect" : [ 931.0, 359.5, 65.0, 22.0 ]
 				}
 
 			}
@@ -56,12 +116,12 @@
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 717.0, 209.0, 206.0, 57.0 ],
-					"text" : "Ramps a value from 0 to 1 over 1000 milliseconds (or 1 second)"
+					"patching_rect" : [ 1013.0, 209.5, 206.0, 73.0 ],
+					"text" : "Using a bang to control a line object, which ramps a value from 0 to 1 over 1000 milliseconds (or 1 second)"
 				}
 
 			}
@@ -73,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 635.0, 188.0, 24.0, 24.0 ]
+					"patching_rect" : [ 931.0, 188.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -84,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 635.0, 244.0, 65.0, 22.0 ],
+					"patching_rect" : [ 931.0, 244.5, 65.0, 22.0 ],
 					"text" : "0., 1. 1000"
 				}
 
@@ -96,7 +156,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 635.0, 300.0, 41.0, 22.0 ],
+					"patching_rect" : [ 931.0, 300.5, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -206,7 +266,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 244.0, 50.0, 22.0 ]
+					"patching_rect" : [ 48.0, 244.0, 50.0, 22.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -215,13 +276,12 @@
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-36",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 59.0, 294.0, 107.0 ],
-					"presentation_linecount" : 6,
-					"text" : "A bang can be thought of as an instantaneous event.\n\nOr a start, or a trigger, or a go.\n\nClicking on a button makes a bang occur."
+					"patching_rect" : [ 48.0, 59.0, 540.0, 90.0 ],
+					"text" : "A bang can be thought of as an instantaneous event; like a a start, or a trigger, or a go.\n\nClicking on a button makes a bang occur. A loadbang object sends out a bang when a patch is loaded and is a great way to initialize your patches."
 				}
 
 			}
@@ -245,8 +305,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 22.0, 115.0, 35.0 ],
-					"text" : "The bang"
+					"patching_rect" : [ 48.0, 22.0, 278.0, 35.0 ],
+					"text" : "The bang and loadbang"
 				}
 
 			}
@@ -274,8 +334,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 647.5, 283.0, 624.0, 283.0, 624.0, 167.0, 647.5, 167.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 786.5, 283.0, 763.0, 283.0, 763.0, 167.0, 786.5, 167.0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
