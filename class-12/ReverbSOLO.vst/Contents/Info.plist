@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioComponents</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>Reverb SOLO</string>
+			<key>factoryFunction</key>
+			<string>ReverbSoloAUFactory</string>
+			<key>manufacturer</key>
+			<string>ACON</string>
+			<key>name</key>
+			<string>Acon Digital: Acon Digital Reverb SOLO</string>
+			<key>subtype</key>
+			<string>RVSL</string>
+			<key>type</key>
+			<string>aufx</string>
+			<key>version</key>
+			<integer>65539</integer>
+		</dict>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>15D21</string>
+	<key>CFBundleExecutable</key>
+	<string>ReverbSolo</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.Acon.ReverbSolo</string>
+	<key>CFBundleName</key>
+	<string>ReverbSolo</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>PTul</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7D1014</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15E60</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0731</string>
+	<key>DTXcodeBuild</key>
+	<string>7D1014</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Acon Digital</string>
+</dict>
+</plist>
