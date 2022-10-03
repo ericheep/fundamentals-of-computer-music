@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -157,8 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.0, 324.0, 196.0, 90.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 730.0, 324.0, 200.0, 90.0 ],
 					"text" : "We can make a helicopter sound by connecting a metro object to an envelope with a short burst-like shape."
 				}
 
@@ -195,7 +194,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 348.0, 180.0, 79.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1. 100 0. 300"
 				}
 

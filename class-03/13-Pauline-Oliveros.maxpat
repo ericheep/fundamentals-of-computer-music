@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,17 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.5, 426.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 14.0,
@@ -141,8 +130,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -214,36 +203,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 47.0, 79.0, 31.0, 22.0 ],
-									"text" : "t b s"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 47.0, 118.0, 201.0, 22.0 ],
-									"text" : "combine ../audio/copyright/ filename"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 47.0, 45.0, 423.0, 22.0 ],
+									"patching_rect" : [ 47.0, 104.0, 423.0, 22.0 ],
 									"text" : "loadmess \"Pauline Oliveros - Electronic Music (1965 - 1966) - 01 I Of IV.wav\""
 								}
 
@@ -251,29 +216,8 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"source" : [ "obj-6", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-6", 0 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -492,7 +436,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-02",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-03",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

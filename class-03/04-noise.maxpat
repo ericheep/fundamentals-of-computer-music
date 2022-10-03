@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 58.0, 61.0, 763.0, 123.0 ],
-					"text" : "In synthesis, noise is a good thing - and while there are many variants of noise, but pink and white are the most often used.\n\nWhite noise is all frequencies at the same amplitude. This is created by random number sequence.\n\nPink noise is white noise but filtered at 3dB per octave. This creates a noise that isn't as harsh in the upper frequencies."
+					"text" : "In synthesis, noise is a good thing - and while there are many variants of noise, pink and white are the most often used.\n\nWhite noise is all frequencies at the same amplitude. This is created by random number sequence.\n\nPink noise is white noise but filtered at 3dB per octave. This creates a noise that isn't as harsh in the upper frequencies."
 				}
 
 			}

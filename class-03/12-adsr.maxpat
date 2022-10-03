@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -59,8 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.0, 455.5, 300.0, 57.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 648.0, 455.5, 304.0, 57.0 ],
 					"text" : "This is a multislider set to show events over time, using this, we can see the shape of our envelope."
 				}
 
@@ -98,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 648.0, 323.0, 300.0, 121.5 ],
+					"patching_rect" : [ 648.0, 323.0, 300.0, 122.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 2,
 					"thickness" : 5

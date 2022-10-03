@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -260,7 +260,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 173.0, 244.0, 579.0, 140.0 ],
-					"presentation_linecount" : 8,
 					"text" : "If we set a live.gain~ object to -6dB, then we are reducing the amplitude of its incoming signal by half. We can use a loadmess object to ensure that our live.gain is set to a good level when we load the patch.\n\n-6dB   ~ 50%\n-12dB ~ 25%\n-18dB ~ 12.5%\n-24dB ~ 6.75%"
 				}
 
@@ -301,7 +300,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 646.0, 684.0, 57.0 ],
-					"presentation_linecount" : 3,
 					"text" : "\"The definition of the decibel originated in the measurement of transmission loss and power in telephony of the early 20th century in the Bell System in the United States. The bel was named in honor of Alexander Graham Bell, but the bel is seldom used.\" - Wikipedia"
 				}
 
