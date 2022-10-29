@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 216.0, 120.666666666666629, 35.0, 22.0 ],
+					"patching_rect" : [ 291.0, 120.666666666666629, 35.0, 22.0 ],
 					"text" : "adc~"
 				}
 
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 186.0, 120.666666666666629, 24.0, 24.0 ]
+					"patching_rect" : [ 261.0, 120.666666666666629, 24.0, 24.0 ]
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 216.0, 159.0, 73.0, 22.0 ],
+					"patching_rect" : [ 291.0, 159.0, 73.0, 22.0 ],
 					"text" : "record~ buff"
 				}
 
@@ -119,8 +119,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.813724517822266, 121.666666666666657, 62.0, 22.0 ],
-					"text" : "water.wav"
+					"patching_rect" : [ 133.313724517822266, 121.666666666666657, 95.0, 22.0 ],
+					"text" : "audio/water.wav"
 				}
 
 			}
@@ -349,7 +349,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 524.686275482177734, 396.980383952458624, 160.0, 22.0 ],
-					"text" : "start 0 1920 75"
+					"text" : "start 0 1920 63"
 				}
 
 			}
@@ -600,8 +600,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.813724517822266, 121.666666666666657, 49.0, 22.0 ],
-					"text" : "cat.wav"
+					"patching_rect" : [ 37.813724517822266, 121.666666666666657, 82.0, 22.0 ],
+					"text" : "audio/cat.wav"
 				}
 
 			}

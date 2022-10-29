@@ -802,8 +802,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 94.0, 118.0, 22.0 ],
-									"text" : "loadmess snare.wav"
+									"patching_rect" : [ 210.0, 94.0, 151.0, 22.0 ],
+									"text" : "loadmess audio/snare.wav"
 								}
 
 							}

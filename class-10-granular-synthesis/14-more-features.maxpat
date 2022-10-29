@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 165.0, 1403.0, 588.0 ],
+		"rect" : [ 34.0, 165.0, 755.0, 588.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 159.0, 466.0, 48.0, 22.0 ],
+					"text" : "plug $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.0, 196.0, 119.0, 22.0 ],
+					"text" : "mt.relativetoabsolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 159.0, 433.0, 119.0, 22.0 ],
+					"text" : "mt.relativetoabsolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 159.0, 402.0, 252.0, 22.0 ],
+					"text" : "loadmess ../vsts/ValhallaSpaceModulator.vst3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -57,8 +105,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 155.0, 73.0, 22.0 ],
-					"text" : "dreams.wav"
+					"patching_rect" : [ 174.0, 155.0, 116.0, 22.0 ],
+					"text" : "../audio/dreams.wav"
 				}
 
 			}
@@ -202,18 +250,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 452.0, 35.0, 22.0 ],
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 0,
 					"border" : 0,
@@ -224,8 +260,8 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 354.75, 496.0, 125.0, 22.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, "ReverbSOLO.vst", ";" ],
+					"patching_rect" : [ 354.75, 496.0, 92.5, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -251,14 +287,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "ReverbSOLO.vst",
-							"plugindisplayname" : "Acon Digital Reverb SOLO",
-							"pluginsavedname" : "",
+							"pluginname" : "ValhallaSpaceModulator.vst3",
+							"plugindisplayname" : "ValhallaSpaceModulator",
+							"pluginsavedname" : "~/git/fundamentals-of-computer-music/vsts/ValhallaSpaceModulator.vst3",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "109.CMlaKA....fQPMDZ....AHkUSwD...vY....NXzamABRuIma..............................PLN8zPAwzTVI0..D..B....H....vLyL.PA....jSl7ArOGMTBJ8JAGZzamABRuIma.."
+							"blob" : "789.VMjLgvv....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TyL23hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfDTtXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoFaUMTRSgjZD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMgGTS4DMpMkSxf0TLAiYSwjdHMESn4BZhcVTWkENHIDSzY1TMEiZS4DMpMkS4wTZLoGR40DMlkFRlAkUYYWTGoENHIDSzQUZHYFVVk0ZQwFVm0TLZgCRBwDclkGSw3xPLYmKowDLHkWS3wTZMQCTogjY5YEVzU0UXIGLogjcyfVS4Y1TNQiZS4DMlMUSwn1PMMiYS0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIDSn4hTi81XUokZQcjV3fjPMIiKogjYTckVHUkUZ01YFMFNHgFSw3RZHU2LC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -267,64 +303,28 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "Acon Digital Reverb SOLO",
-									"origin" : "ReverbSOLO.vst",
-									"type" : "VST",
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
 									"subtype" : "AudioEffect",
 									"embed" : 0,
 									"snapshot" : 									{
-										"pluginname" : "ReverbSOLO.vst",
-										"plugindisplayname" : "Acon Digital Reverb SOLO",
-										"pluginsavedname" : "",
+										"pluginname" : "ValhallaSpaceModulator.vst3",
+										"plugindisplayname" : "ValhallaSpaceModulator",
+										"pluginsavedname" : "~/git/fundamentals-of-computer-music/vsts/ValhallaSpaceModulator.vst3",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "109.CMlaKA....fQPMDZ....AHkUSwD...vY....NXzamABRuIma..............................PLN8zPAwzTVI0..D..B....H....vLyL.PA....jSl7ArOGMTBJ8JAGZzamABRuIma.."
+										"blob" : "789.VMjLgvv....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TyL23hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfDTtXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoFaUMTRSgjZD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMgGTS4DMpMkSxf0TLAiYSwjdHMESn4BZhcVTWkENHIDSzY1TMEiZS4DMpMkS4wTZLoGR40DMlkFRlAkUYYWTGoENHIDSzQUZHYFVVk0ZQwFVm0TLZgCRBwDclkGSw3xPLYmKowDLHkWS3wTZMQCTogjY5YEVzU0UXIGLogjcyfVS4Y1TNQiZS4DMlMUSwn1PMMiYS0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIDSn4hTi81XUokZQcjV3fjPMIiKogjYTckVHUkUZ01YFMFNHgFSw3RZHU2LC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 									}
 ,
 									"fileref" : 									{
-										"name" : "Acon Digital Reverb SOLO",
-										"filename" : "Acon Digital Reverb SOLO.maxsnap",
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator_20221029.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "f515cce983e669000d5fc4ae6eca7811"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Acon Digital Reverb SOLO",
-									"origin" : "ReverbSOLO.vst",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Acon Digital Reverb SOLO",
-										"filename" : "Acon Digital Reverb SOLO_20190905.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "da31bb4f7bd189d2c09b4839dec59e0f"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Acon Digital Reverb SOLO",
-									"origin" : "ReverbSolo.vst",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Acon Digital Reverb SOLO",
-										"filename" : "Acon Digital Reverb SOLO_20190905_1.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "2b13bd2daf4002bc470e80204cdb85ab"
+										"snapshotfileid" : "20b5660adc3791769f5e7b3e1d7cbff1"
 									}
 
 								}
@@ -333,7 +333,7 @@
 
 					}
 ,
-					"text" : "vst~ ReverbSOLO.vst",
+					"text" : "vst~",
 					"varname" : "vst~",
 					"viewvisibility" : 0
 				}
@@ -1153,6 +1153,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -1162,6 +1169,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1195,6 +1209,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-51", 1 ]
 				}
@@ -1216,7 +1237,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -1245,7 +1266,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -1296,31 +1317,24 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ValhallaSpaceModulator_20221029.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mt.polyGranularSynth.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/granular",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-10-granular-synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Acon Digital Reverb SOLO.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Acon Digital Reverb SOLO_20190905.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Acon Digital Reverb SOLO_20190905_1.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
+				"name" : "mt.relativetoabsolute.maxpat",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-10-granular-synthesis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

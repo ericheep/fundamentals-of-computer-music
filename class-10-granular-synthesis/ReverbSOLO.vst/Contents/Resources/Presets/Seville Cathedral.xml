@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Preset>
-  <ParameterSettings>
-    <Parameter id="2" unit="%" value="8" name="ReverbCharacter"/>
-    <Parameter id="1" unit="%" value="-2.7985961437225341797" name="ReverbMix"/>
-  </ParameterSettings>
-</Preset>

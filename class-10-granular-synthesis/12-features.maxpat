@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 43.0, 79.0, 1004.0, 658.0 ],
+		"rect" : [ 43.0, 100.0, 1004.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 620.186275482177734, 214.0, 81.0, 22.0 ],
+					"text" : "loadmess -24"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"lastchannelcount" : 0,
@@ -427,6 +439,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 0,
 					"source" : [ "obj-39", 0 ]
@@ -528,7 +547,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.basicGranularSynth.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/granular",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-10-granular-synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
