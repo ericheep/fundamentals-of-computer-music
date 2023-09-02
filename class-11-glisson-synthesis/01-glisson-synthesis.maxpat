@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 72.0, 146.0, 677.0, 472.0 ],
+		"rect" : [ 72.0, 146.0, 802.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 480.500000000000114, 112.764700412750244, 80.0, 22.0 ],
+					"text" : "loadmess 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 393.833333333333371, 112.764700412750244, 77.0, 22.0 ],
+					"text" : "loadmess 50"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"lastchannelcount" : 0,
@@ -347,6 +371,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -403,7 +450,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.glissonSynth.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-11",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-11-glisson-synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

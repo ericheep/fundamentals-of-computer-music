@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 39.313724517822266, 184.666666666666686, 109.0, 22.0 ],
+					"patching_rect" : [ 39.313724517822266, 281.666666666666686, 109.0, 22.0 ],
 					"text" : "buffer~ cat cat.wav"
 				}
 

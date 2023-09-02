@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 53.0, 289.0, 95.0, 22.0 ],
+					"text" : "prepend replace"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 53.0, 258.0, 119.0, 22.0 ],
+					"text" : "mt.relativetoabsolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 53.0, 181.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 173.0, 217.882350206375122, 92.0, 22.0 ],
+					"text" : "../audio/cat.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 53.0, 217.882350206375122, 105.0, 22.0 ],
+					"text" : "../audio/water.wav"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "message",
@@ -233,8 +293,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -890,18 +950,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.5, 470.0, 35.0, 22.0 ],
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 0,
 					"border" : 0,
@@ -929,6 +977,98 @@
 						"parameter_mappable" : 0
 					}
 ,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "ValhallaSpaceModulator.vst3",
+							"plugindisplayname" : "ValhallaSpaceModulator",
+							"pluginsavedname" : "~/git/fundamentals-of-computer-music/vsts/ValhallaSpaceModulator.vst3",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "729.VMjLg.s....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNx3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjKvXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAYWZUMTRSgjLC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMglKnI1YQcUV3fjPLQGVowDLpMkSzn1PNICQowDLLMkSwHVZHYFTVkkcQcjV3fjPLQGUogjYXYUVqEEaXcVSwnENHIDSzQUZHYldVgEcUcEVxASZHY2LR0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIDSn4hTi81XUokZQcjV3fjPMIiKogjYTckVHUkUZ01YFMFNHgFSw3RZHU2LC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "ValhallaSpaceModulator.vst3",
+										"plugindisplayname" : "ValhallaSpaceModulator",
+										"pluginsavedname" : "~/git/fundamentals-of-computer-music/vsts/ValhallaSpaceModulator.vst3",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "729.VMjLg.s....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNx3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjKvXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAYWZUMTRSgjLC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMglKnI1YQcUV3fjPLQGVowDLpMkSzn1PNICQowDLLMkSwHVZHYFTVkkcQcjV3fjPLQGUogjYXYUVqEEaXcVSwnENHIDSzQUZHYldVgEcUcEVxASZHY2LR0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIDSn4hTi81XUokZQcjV3fjPMIiKogjYTckVHUkUZ01YFMFNHgFSw3RZHU2LC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
+									}
+,
+									"fileref" : 									{
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "19d15094eaf0c2d82d17ad0641552061"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator_20221029.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "20b5660adc3791769f5e7b3e1d7cbff1"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator_20221029_1.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "cce176a7fdf8c19bcb350f5a847d00e7"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
 					"text" : "vst~",
 					"varname" : "vst~",
 					"viewvisibility" : 0
@@ -941,7 +1081,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 344.333333333333371, 34.0, 22.0 ],
+					"patching_rect" : [ 166.0, 395.333333333333371, 34.0, 22.0 ],
 					"text" : "s len"
 				}
 
@@ -953,7 +1093,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 225.0, 302.333333333333371, 103.0, 22.0 ],
+					"patching_rect" : [ 103.0, 353.333333333333371, 103.0, 22.0 ],
 					"text" : "info~ buff"
 				}
 
@@ -989,8 +1129,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 131.0, 265.0, 113.0, 22.0 ],
-					"text" : "buffer~ buff cat.wav"
+					"patching_rect" : [ 53.0, 319.0, 69.0, 22.0 ],
+					"text" : "buffer~ buff"
 				}
 
 			}
@@ -1041,6 +1181,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-14", 1 ]
 				}
@@ -1050,6 +1204,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -1143,13 +1318,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-56", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1265,6 +1433,27 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ValhallaSpaceModulator.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ValhallaSpaceModulator_20221029.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ValhallaSpaceModulator_20221029_1.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mt.polyGrainletSynth.maxpat",
 				"bootpath" : "~/git/fundamentals-of-computer-music/class-11-glisson-synthesis",
 				"patcherrelativepath" : ".",

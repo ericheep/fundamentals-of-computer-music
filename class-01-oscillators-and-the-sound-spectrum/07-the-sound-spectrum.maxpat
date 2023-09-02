@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 78.5, 823.0, 173.0 ],
-					"text" : "The audio spectrum is a visual representation of the audible range in which humans can hear; typically from 20hz to 20000hz.\n\nPretty much every sound we listen to has its own harmonic series, when I sing in the microphone (not too wonderfully), you should be able to see the harmonics that my voice creates.\n\nBelow are two representations of the spectrum, the one of the left is a spectrogram that shows instantaneous values, and the one on the right is a sonogram which shows how the spectrum is changing over time.\n\nBoth of these views are from the same object, the spectroscope~ object."
+					"text" : "The sound spectrum is a visual representation of the audible range in which humans can hear; typically from 20hz to 20000hz.\n\nPretty much every sound we listen to has its own harmonic series, when I sing in the microphone (not too wonderfully), you should be able to see the harmonics that my voice creates.\n\nBelow are two representations of the spectrum, the one of the left is a spectrogram that shows instantaneous values, and the one on the right is a sonogram which shows how the spectrum is changing over time.\n\nBoth of these views are from the same object, the spectroscope~ object."
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 31.0, 369.0, 35.0 ],
-					"text" : "The Audio Spectrum"
+					"text" : "The Sound Spectrum"
 				}
 
 			}

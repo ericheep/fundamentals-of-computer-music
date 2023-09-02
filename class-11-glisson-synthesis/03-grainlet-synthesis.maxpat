@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 84.0, 1363.0, 520.0 ],
+		"rect" : [ 34.0, 100.0, 1363.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 39.313724517822266, 296.35784176985419, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 158.313724517822266, 205.549016873041751, 92.0, 22.0 ],
+					"text" : "../audio/cat.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 39.313724517822266, 205.549016873041751, 105.0, 22.0 ],
+					"text" : "../audio/water.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 39.313724517822266, 260.549016873041751, 119.0, 22.0 ],
+					"text" : "mt.relativetoabsolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 220.0, 331.5, 81.0, 22.0 ],
+					"text" : "loadmess -12"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
@@ -47,7 +107,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 882.0, 16.0, 410.852942148844249, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Some thoughts from Dan Shiffman's \"Nature of Code\""
 				}
 
@@ -102,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 538.313724517822266, 16.0, 234.852942148844249, 23.0 ],
-					"text" : "Tractor or Govenor Controller"
+					"text" : "Main Controller"
 				}
 
 			}
@@ -113,7 +172,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.408497704399906, 186.666666666666657, 110.0, 22.0 ],
+					"patching_rect" : [ 448.408497704399906, 177.666666666666657, 110.0, 22.0 ],
 					"text" : "scale 0. 1. 50. 100."
 				}
 
@@ -125,7 +184,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.166666666666515, 186.666666666666657, 90.0, 22.0 ],
+					"patching_rect" : [ 723.166666666666515, 177.666666666666657, 90.0, 22.0 ],
 					"text" : "scale 0. 1. 4. 1."
 				}
 
@@ -137,7 +196,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 585.277777777777601, 186.666666666666657, 110.0, 22.0 ],
+					"patching_rect" : [ 585.277777777777601, 177.666666666666657, 110.0, 22.0 ],
 					"text" : "scale 0. 1. 50. 200."
 				}
 
@@ -175,7 +234,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 723.166666666666515, 260.549016873041751, 50.0, 22.0 ]
+					"patching_rect" : [ 723.166666666666515, 234.549016873041751, 50.0, 22.0 ]
 				}
 
 			}
@@ -187,7 +246,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.166666666666515, 232.549016873041751, 94.0, 23.0 ],
+					"patching_rect" : [ 723.166666666666515, 206.549016873041751, 94.0, 23.0 ],
 					"text" : "Rate Spread"
 				}
 
@@ -200,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.277777777777601, 232.549016873041751, 123.0, 23.0 ],
+					"patching_rect" : [ 585.277777777777601, 206.549016873041751, 123.0, 23.0 ],
 					"text" : "Duration Spread"
 				}
 
@@ -213,7 +272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 309.5, 296.35784176985419, 432.666666666666515, 22.0 ],
-					"text" : "mtiid.grainletSynth water"
+					"text" : "mt.grainletSynth water"
 				}
 
 			}
@@ -225,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 585.277777777777601, 260.549016873041751, 50.0, 22.0 ]
+					"patching_rect" : [ 585.277777777777601, 234.549016873041751, 50.0, 22.0 ]
 				}
 
 			}
@@ -237,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.408497704399906, 231.549016873041751, 79.0, 23.0 ],
+					"patching_rect" : [ 448.408497704399906, 205.549016873041751, 79.0, 23.0 ],
 					"text" : "Position"
 				}
 
@@ -274,7 +333,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 447.3888888888888, 260.549016873041751, 50.0, 22.0 ]
+					"patching_rect" : [ 447.3888888888888, 234.549016873041751, 50.0, 22.0 ]
 				}
 
 			}
@@ -296,8 +355,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 39.313724517822266, 296.35784176985419, 135.0, 22.0 ],
-					"text" : "buffer~ water water.wav"
+					"patching_rect" : [ 39.313724517822266, 331.5, 79.0, 22.0 ],
+					"text" : "buffer~ water"
 				}
 
 			}
@@ -362,6 +421,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-2", 1 ]
 				}
@@ -371,6 +444,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -415,6 +495,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 3 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -466,9 +560,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mtiid.grainletSynth.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"name" : "mt.grainletSynth.maxpat",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-11-glisson-synthesis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mt.relativetoabsolute.maxpat",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-11-glisson-synthesis",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
