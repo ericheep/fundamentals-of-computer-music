@@ -315,8 +315,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 22.0, 278.0, 35.0 ],
-					"text" : "bang and loadbang"
+					"patching_rect" : [ 48.0, 22.0, 66.0, 35.0 ],
+					"text" : "bang"
 				}
 
 			}
