@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -81,8 +81,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 431.0, 137.0, 22.0 ],
-					"text" : "loadmess audio/cat.wav"
+					"patching_rect" : [ 190.0, 431.0, 147.0, 22.0 ],
+					"text" : "loadmess ../audio/cat.wav"
 				}
 
 			}
@@ -219,7 +219,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-08",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-04-buffers-and-samplers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

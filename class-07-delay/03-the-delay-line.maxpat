@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 504.0, 171.0, 597.0, 554.0 ],
+		"rect" : [ 581.0, 375.0, 520.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 216.0, 194.333333333333371, 40.0, 22.0 ],
+					"text" : "*~ 0.8"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 247.5, 270.0, 118.0, 23.0 ]
+					"patching_rect" : [ 295.5, 274.0, 118.0, 23.0 ]
 				}
 
 			}
@@ -57,7 +69,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 249.0, 121.0, 24.0, 24.0 ]
+					"patching_rect" : [ 297.0, 121.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -68,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 249.0, 158.666666666666686, 39.0, 22.0 ],
+					"patching_rect" : [ 297.0, 158.666666666666686, 39.0, 22.0 ],
 					"text" : "click~"
 				}
 
@@ -113,12 +125,11 @@
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 62.0, 379.0, 40.0 ],
-					"text" : "Use tapin~ and tapout~ to create a feedback loop, attempt to do the same with delay~"
+					"patching_rect" : [ 34.0, 62.0, 379.0, 23.0 ],
+					"text" : "You can tapin~ and tapout~ to create a feedback loop."
 				}
 
 			}
@@ -141,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 247.5, 194.333333333333371, 72.0, 22.0 ],
+					"patching_rect" : [ 295.5, 194.333333333333371, 72.0, 22.0 ],
 					"text" : "tapin~ 1000"
 				}
 
@@ -153,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 247.5, 230.000000000000057, 79.0, 22.0 ],
+					"patching_rect" : [ 295.5, 230.000000000000057, 79.0, 22.0 ],
 					"text" : "tapout~ 1000"
 				}
 
@@ -167,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.0, 20.0, 216.0, 35.0 ],
-					"text" : "Build A Delay Line"
+					"text" : "The Delay Line"
 				}
 
 			}
@@ -175,6 +186,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -218,6 +238,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

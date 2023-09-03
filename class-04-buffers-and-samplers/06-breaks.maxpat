@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1019.0, 810.0 ],
+		"rect" : [ 34.0, 100.0, 1019.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 98.5, 595.0, 81.0, 22.0 ],
+					"text" : "loadmess -24"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"lastchannelcount" : 0,
@@ -164,8 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 725.0, 289.0, 185.0, 22.0 ],
-					"text" : "audio/breaks/funky-drummer.wav"
+					"patching_rect" : [ 725.0, 289.0, 195.0, 22.0 ],
+					"text" : "../audio/breaks/funky-drummer.wav"
 				}
 
 			}
@@ -176,8 +188,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 289.0, 217.0, 22.0 ],
-					"text" : "audio/breaks/synthetic-substitution.wav"
+					"patching_rect" : [ 327.0, 289.0, 227.0, 22.0 ],
+					"text" : "../audio/breaks/synthetic-substitution.wav"
 				}
 
 			}
@@ -264,8 +276,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.5, 289.0, 169.0, 22.0 ],
-					"text" : "audio/breaks/amen-break.wav"
+					"patching_rect" : [ 45.5, 289.0, 179.0, 22.0 ],
+					"text" : "../audio/breaks/amen-break.wav"
 				}
 
 			}
@@ -331,6 +343,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -449,7 +468,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-08",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-04-buffers-and-samplers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

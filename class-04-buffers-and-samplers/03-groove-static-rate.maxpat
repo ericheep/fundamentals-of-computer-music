@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 108.0, 852.0, 671.0 ],
+		"rect" : [ 700.0, 299.0, 550.0, 646.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-16",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 47.5, 158.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 127.0, 395.0, 87.0, 22.0 ],
+					"patching_rect" : [ 112.0, 390.0, 87.0, 22.0 ],
 					"text" : "loadmess -100"
 				}
 
@@ -59,7 +72,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 62.5, 395.0, 48.0, 136.0 ],
+					"patching_rect" : [ 47.5, 390.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -83,34 +96,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 346.0, 429.0, 58.0, 22.0 ],
+					"patching_rect" : [ 274.0, 158.0, 58.0, 22.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"automatic" : 1,
-					"bufsize" : 64,
-					"calccount" : 10,
-					"id" : "obj-22",
-					"maxclass" : "scope~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 699.0, 285.0, 70.5, 47.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"automatic" : 1,
-					"bufsize" : 64,
-					"calccount" : 10,
-					"id" : "obj-21",
-					"maxclass" : "scope~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 285.0, 77.0, 47.0 ]
 				}
 
 			}
@@ -123,79 +110,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.5, 282.0, 68.0, 50.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 734.25, 204.0, 29.5, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 666.5, 204.0, 58.0, 22.0 ],
-					"text" : "sig~ 0.25"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 666.5, 244.0, 103.0, 22.0 ],
-					"text" : "groove~ myBuffer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.25, 204.0, 29.5, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 346.0, 204.0, 51.0, 22.0 ],
-					"text" : "sig~ 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 346.0, 244.0, 103.0, 22.0 ],
-					"text" : "groove~ myBuffer"
+					"patching_rect" : [ 82.5, 277.0, 68.0, 50.0 ]
 				}
 
 			}
@@ -206,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.25, 204.0, 29.5, 22.0 ],
+					"patching_rect" : [ 98.25, 199.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -218,8 +133,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 62.5, 204.0, 44.0, 22.0 ],
-					"text" : "sig~ 1."
+					"patching_rect" : [ 47.5, 199.0, 44.0, 22.0 ],
+					"text" : "sig~ 0."
 				}
 
 			}
@@ -230,8 +145,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 62.5, 244.0, 103.0, 22.0 ],
-					"text" : "groove~ myBuffer"
+					"patching_rect" : [ 47.5, 239.0, 152.0, 22.0 ],
+					"text" : "groove~ myBuffer @loop 1"
 				}
 
 			}
@@ -242,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 537.0, 95.0, 22.0 ],
+					"patching_rect" : [ 274.0, 266.0, 95.0, 22.0 ],
 					"text" : "prepend replace"
 				}
 
@@ -254,8 +169,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 466.0, 169.0, 22.0 ],
-					"text" : "audio/breaks/amen-break.wav"
+					"patching_rect" : [ 274.0, 195.0, 179.0, 22.0 ],
+					"text" : "../audio/breaks/amen-break.wav"
 				}
 
 			}
@@ -266,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 502.0, 119.0, 22.0 ],
+					"patching_rect" : [ 274.0, 231.0, 119.0, 22.0 ],
 					"text" : "mt.relativetoabsolute"
 				}
 
@@ -278,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 346.0, 570.0, 97.0, 22.0 ],
+					"patching_rect" : [ 274.0, 299.0, 97.0, 22.0 ],
 					"text" : "buffer~ myBuffer"
 				}
 
@@ -292,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 64.0, 590.0, 57.0 ],
+					"patching_rect" : [ 47.5, 64.0, 438.0, 57.0 ],
 					"text" : "The groove~ object is different from the other buffer objects as it requires a signal of some sort to drive it. This slide is using a constant signal to play back the same buffer at a static rate."
 				}
 
@@ -305,7 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 27.0, 91.0, 35.0 ],
+					"patching_rect" : [ 47.5, 27.0, 91.0, 35.0 ],
 					"text" : "Groove"
 				}
 
@@ -316,7 +231,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.75, 570.0, 35.0, 22.0 ],
+					"patching_rect" : [ 47.75, 565.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -345,32 +260,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 676.0, 365.0, 72.0, 365.0 ],
-					"order" : 1,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -394,13 +285,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -441,30 +325,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 355.5, 364.0, 72.0, 364.0 ],
-					"order" : 1,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-19" : [ "live.gain~", "live.gain~", 0 ],
@@ -477,7 +337,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-08",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-04-buffers-and-samplers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

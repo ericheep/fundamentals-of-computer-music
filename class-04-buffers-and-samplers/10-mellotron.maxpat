@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 606.0, 289.0, 1064.0, 659.0 ],
+		"rect" : [ 242.0, 269.0, 1064.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -353,8 +353,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -588,8 +588,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/C4.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/C4.wav"
 								}
 
 							}
@@ -805,8 +805,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1040,8 +1040,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/B3.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/B3.wav"
 								}
 
 							}
@@ -1257,8 +1257,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1492,8 +1492,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/A3.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/A3.wav"
 								}
 
 							}
@@ -1709,8 +1709,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1744,7 +1744,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -1945,8 +1944,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 144.0, 22.0 ],
-									"text" : "audio/mello-choir/G3.wav"
+									"patching_rect" : [ 108.0, 67.0, 154.0, 22.0 ],
+									"text" : "../audio/mello-choir/G3.wav"
 								}
 
 							}
@@ -2162,8 +2161,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2614,8 +2613,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2849,8 +2848,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/E3.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/E3.wav"
 								}
 
 							}
@@ -3066,8 +3065,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3301,8 +3300,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/D3.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/D3.wav"
 								}
 
 							}
@@ -3739,8 +3738,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3974,8 +3973,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.0, 67.0, 143.0, 22.0 ],
-									"text" : "audio/mello-choir/C3.wav"
+									"patching_rect" : [ 108.0, 67.0, 153.0, 22.0 ],
+									"text" : "../audio/mello-choir/C3.wav"
 								}
 
 							}
@@ -4606,7 +4605,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-08",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-04-buffers-and-samplers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
