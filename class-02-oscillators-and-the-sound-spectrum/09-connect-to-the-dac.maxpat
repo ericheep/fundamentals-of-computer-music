@@ -100,7 +100,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 78.5, 379.0, 140.0 ],
-					"presentation_linecount" : 8,
 					"text" : "The most basic noise making patch should use three objects.\n\n1. Some type of sound generator.\n\n2. Something to control how loud it is.\n\n3. A DAC."
 				}
 
@@ -114,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 29.0, 224.0, 35.0 ],
-					"text" : "Make Some Sound"
+					"text" : "make some sound"
 				}
 
 			}

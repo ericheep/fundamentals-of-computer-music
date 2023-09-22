@@ -42,14 +42,12 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-29",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 71.0, 331.0, 57.0 ],
-					"presentation_linecount" : 4,
 					"text" : "All the basic math operators are included in Max.\n+ - * /"
 				}
 
@@ -256,7 +254,6 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,

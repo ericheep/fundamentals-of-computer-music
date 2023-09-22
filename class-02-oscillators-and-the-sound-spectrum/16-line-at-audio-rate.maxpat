@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 155.0, 394.0, 1457.0, 577.0 ],
+		"rect" : [ 208.0, 368.0, 1404.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 1235.5, 249.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1216.5, 249.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -65,7 +65,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 887.5, 249.0, 56.0, 22.0 ],
+					"patching_rect" : [ 868.5, 249.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -79,8 +79,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.5, 59.0, 523.0, 90.0 ],
-					"text" : "The line~ object behaves in the same way, but instead outputs an audio signal which we can combine with other audio signals.\n\nIn this algorithm we're using one line~ to control frequency and one line~ to controla mplitude."
+					"patching_rect" : [ 850.5, 59.0, 525.0, 90.0 ],
+					"text" : "The line~ object behaves in the same way, but instead outputs an audio signal which we can combine with other audio signals.\n\nIn this algorithm we're using one line~ to control frequency and one line~ to control amplitude."
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.0, 185.0, 48.0, 48.0 ]
+					"patching_rect" : [ 459.0, 189.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -105,14 +105,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 221.0, 215.0, 90.0 ],
+					"patching_rect" : [ 550.0, 189.0, 204.0, 90.0 ],
 					"text" : "The second outlet of the line object sends a bang when the requested action is complete, allowing use to create this infinite loop"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"format" : 6,
 					"id" : "obj-26",
 					"maxclass" : "flonum",
@@ -120,85 +120,72 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.0, 351.0, 82.0, 35.0 ]
+					"patching_rect" : [ 459.0, 317.0, 53.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 249.0, 122.0, 35.0 ],
+					"patching_rect" : [ 459.0, 249.0, 65.0, 22.0 ],
 					"text" : "0., 1. 4000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 459.0, 300.0, 73.0, 35.0 ],
+					"patching_rect" : [ 459.0, 279.0, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
+					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 1217.5, 212.0, 74.0, 31.0 ],
+					"patching_rect" : [ 1198.5, 212.0, 48.0, 22.0 ],
 					"text" : "line~ 0."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1217.5, 158.0, 175.0, 35.0 ],
+					"patching_rect" : [ 1198.5, 165.0, 92.0, 22.0 ],
 					"text" : "220., 440. 4000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1057.500000000000227, 158.0, 122.0, 35.0 ],
-					"text" : "1., 0. 4000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 24.0,
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 869.5, 158.0, 46.0, 35.0 ],
-					"text" : "0"
+					"patching_rect" : [ 914.500000000000227, 165.0, 49.0, 22.0 ],
+					"text" : "0. 4000"
 				}
 
 			}
@@ -208,7 +195,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.5, 534.0, 35.0, 22.0 ],
+					"patching_rect" : [ 850.5, 534.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -220,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 765.0, 374.0, 81.0, 22.0 ],
+					"patching_rect" : [ 756.0, 374.0, 81.0, 22.0 ],
 					"text" : "loadmess -24"
 				}
 
@@ -232,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 869.5, 333.0, 29.5, 22.0 ],
+					"patching_rect" : [ 850.5, 336.0, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -246,7 +233,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 869.5, 374.0, 48.0, 136.0 ],
+					"patching_rect" : [ 850.5, 374.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -265,46 +252,46 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1217.5, 280.0, 105.0, 31.0 ],
+					"patching_rect" : [ 1198.5, 280.0, 66.0, 22.0 ],
 					"text" : "cycle~ 440"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 924.833333333333371, 158.0, 122.0, 35.0 ],
-					"text" : "0., 1. 4000"
+					"patching_rect" : [ 850.5, 165.0, 49.0, 22.0 ],
+					"text" : "1. 4000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
+					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 869.5, 212.0, 74.0, 31.0 ],
+					"patching_rect" : [ 850.5, 212.0, 48.0, 22.0 ],
 					"text" : "line~ 0."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
@@ -312,7 +299,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 48.0, 351.0, 90.0, 35.0 ]
+					"patching_rect" : [ 48.0, 317.0, 66.0, 22.0 ]
 				}
 
 			}
@@ -321,11 +308,11 @@
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 217.333333333333371, 215.0, 107.0 ],
+					"patching_rect" : [ 143.0, 189.0, 248.0, 90.0 ],
 					"text" : "This message box determines how the line will behave, in this example we are telling the line object to start at 0., and then move to 1. over a period of 1000 milliseconds."
 				}
 
@@ -338,32 +325,32 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 48.0, 185.0, 48.0, 48.0 ]
+					"patching_rect" : [ 48.0, 189.0, 48.0, 48.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 249.0, 122.0, 35.0 ],
+					"patching_rect" : [ 48.0, 249.0, 65.0, 22.0 ],
 					"text" : "0., 1. 1000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 48.0, 300.0, 73.0, 35.0 ],
+					"patching_rect" : [ 48.0, 279.0, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -377,7 +364,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 59.0, 776.0, 107.0 ],
+					"patching_rect" : [ 48.0, 66.0, 658.0, 107.0 ],
 					"text" : "A line is a way to create smooth actions. \n\nIt can be used to control frequency, amplitude, pitch, and practically any other parameter in Max.\n\nUnderstanding the line object and using it often is going to kickstart your understanding of creating patches in Max."
 				}
 
@@ -390,8 +377,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 22.0, 288.0, 35.0 ],
-					"text" : "line revisted"
+					"patching_rect" : [ 48.0, 22.0, 160.0, 35.0 ],
+					"text" : "line and line~"
 				}
 
 			}
@@ -399,7 +386,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 1227.0, 327.0, 889.5, 327.0 ],
+					"midpoints" : [ 1208.0, 327.0, 870.5, 327.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -408,13 +395,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -480,16 +460,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 522.5, 345.0, 446.0, 345.0, 446.0, 244.0, 468.5, 244.0 ],
-					"source" : [ "obj-21", 1 ]
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-21", 0 ]
+					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 490.5, 309.0, 444.0, 309.0, 444.0, 180.0, 468.5, 180.0 ],
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
