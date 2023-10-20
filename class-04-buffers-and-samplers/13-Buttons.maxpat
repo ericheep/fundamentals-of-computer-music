@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 528.0, 1061.0, 474.0 ],
+		"rect" : [ 130.0, 379.0, 1061.0, 474.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -155,7 +155,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -727.0, 487.0, 604.0, 541.0 ],
+						"rect" : [ 215.0, 259.0, 604.0, 541.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -420,8 +420,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 426.0, 22.0, 137.0, 22.0 ],
-									"text" : "loadmess audio/cat.wav"
+									"patching_rect" : [ 426.0, 22.0, 147.0, 22.0 ],
+									"text" : "loadmess ../audio/cat.wav"
 								}
 
 							}
@@ -669,7 +669,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -926.0, 569.0, 490.0, 429.0 ],
+						"rect" : [ 241.0, 277.0, 490.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -860,8 +860,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 336.0, 23.0, 132.0, 22.0 ],
-									"text" : "loadmess audio/breaks"
+									"patching_rect" : [ 336.0, 23.0, 142.0, 22.0 ],
+									"text" : "loadmess ../audio/breaks"
 								}
 
 							}
@@ -1150,7 +1150,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -758.0, 603.0, 376.0, 377.0 ],
+						"rect" : [ 630.0, 373.0, 376.0, 377.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1397,7 +1397,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 344.0, 395.0, 544.0 ],
+						"rect" : [ 721.0, 273.0, 395.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1425,7 +1425,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -1785,7 +1784,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -926.0, 569.0, 327.0, 429.0 ],
+						"rect" : [ 812.0, 375.0, 327.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1904,8 +1903,8 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 36.0, 113.0, 94.0, 22.0 ],
-									"text" : "counter 512"
+									"patching_rect" : [ 36.0, 113.0, 65.0, 22.0 ],
+									"text" : "counter 50"
 								}
 
 							}

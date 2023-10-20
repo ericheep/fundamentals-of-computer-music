@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 200.0, 1083.0, 732.0 ],
+		"rect" : [ 261.0, 268.0, 1216.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,74 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
+					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 252.0, 315.5, 44.0, 22.0 ],
-					"text" : "cross~"
+					"numoutlets" : 0,
+					"patching_rect" : [ 43.0, 569.0, 35.0, 22.0 ],
+					"text" : "dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 95.0, 412.0, 81.0, 22.0 ],
+					"text" : "loadmess -32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 43.0, 412.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"patching_rect" : [ 266.5, 341.0, 50.5, 22.0 ],
+					"text" : "svf~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 266.5, 305.0, 42.0, 22.0 ],
+					"text" : "lores~"
 				}
 
 			}
@@ -86,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 412.0, 489.0, 262.0 ],
+					"patching_rect" : [ 705.0, 412.0, 489.0, 262.0 ],
 					"sono" : 1
 				}
 
@@ -110,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 412.0, 489.0, 262.0 ]
+					"patching_rect" : [ 193.75, 412.0, 489.0, 262.0 ]
 				}
 
 			}
@@ -121,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 121.0, 249.0, 44.0, 22.0 ],
+					"patching_rect" : [ 121.0, 210.5, 44.0, 22.0 ],
 					"text" : "noise~"
 				}
 
@@ -133,7 +194,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 188.5, 315.5, 50.5, 22.0 ],
+					"patching_rect" : [ 178.0, 305.0, 50.5, 22.0 ],
 					"text" : "svf~"
 				}
 
@@ -143,12 +204,12 @@
 					"fontname" : "Helvetica Neue Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-2",
-					"linecount" : 7,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 59.0, 865.0, 123.0 ],
-					"text" : "A high pass filter works inversely to a low pass filter.\n\nA high pass filter will allow the higher frequencies to pass while attenuating the lower frequencies. The most basic high pass filter in Max/MSP is the svf~ (state variable filter). \n\nThe cross~ filter (think crossover), is a set of two filters that is good for separating the high energy and low energy portions of a signal. The cross~ object is a third order filter, which means that it has a slope of 18dB per octave."
+					"patching_rect" : [ 39.0, 74.0, 865.0, 57.0 ],
+					"text" : "A band pass filter is a combinatino of the low pass and the high pass. We're allowing a band a frequencies through our filter.\n\nAgain, we're using the svf~ filter as our bandpass filter."
 				}
 
 			}
@@ -162,7 +223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 392.0, 243.5, 82.0, 35.0 ]
+					"patching_rect" : [ 381.5, 197.5, 82.0, 35.0 ]
 				}
 
 			}
@@ -174,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 201.5, 122.0, 30.0 ],
+					"patching_rect" : [ 381.5, 155.5, 122.0, 30.0 ],
 					"text" : "Resonance"
 				}
 
@@ -187,7 +248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.25, 201.5, 179.0, 30.0 ],
+					"patching_rect" : [ 193.75, 155.5, 179.0, 30.0 ],
 					"text" : "Cutoff Frequency"
 				}
 
@@ -202,7 +263,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 204.25, 243.5, 125.0, 35.0 ]
+					"patching_rect" : [ 193.75, 197.5, 125.0, 35.0 ]
 				}
 
 			}
@@ -214,8 +275,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 18.0, 326.0, 35.0 ],
-					"text" : "High Pass"
+					"patching_rect" : [ 39.0, 33.0, 326.0, 35.0 ],
+					"text" : "Band Pass"
 				}
 
 			}
@@ -223,7 +284,14 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 2 ],
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -237,7 +305,47 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
+					"order" : 2,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 2 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 2 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 3 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -250,7 +358,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
+					"order" : 2,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -258,7 +381,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-13", 1 ],
 					"order" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -274,6 +397,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"order" : 2,
 					"source" : [ "obj-3", 0 ]
@@ -282,16 +413,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-14", 0 ],
+					"order" : 2,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 52.5, 399.0, 48.5, 399.0 ],
+					"midpoints" : [ 52.5, 399.0, 203.25, 399.0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -305,14 +436,21 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 3 ],
-					"source" : [ "obj-6", 1 ]
+ ],
+		"parameters" : 		{
+			"obj-14" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
- ],
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

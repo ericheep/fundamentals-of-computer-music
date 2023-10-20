@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -290,7 +290,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -324,7 +324,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -344,9 +343,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 827.5, 150.0, 105.0, 22.0 ],
-									"text" : "mtiid.casio-key 12"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 827.5, 150.0, 93.0, 22.0 ],
+									"text" : "mt.casio-key 12"
 								}
 
 							}
@@ -524,9 +523,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 649.5, 77.0, 105.0, 22.0 ],
-									"text" : "mtiid.casio-key 10"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 649.5, 77.0, 93.0, 22.0 ],
+									"text" : "mt.casio-key 10"
 								}
 
 							}
@@ -536,9 +535,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 714.5, 150.0, 104.0, 22.0 ],
-									"text" : "mtiid.casio-key 11"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 714.5, 150.0, 92.0, 22.0 ],
+									"text" : "mt.casio-key 11"
 								}
 
 							}
@@ -548,9 +547,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 600.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 9"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 600.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 9"
 								}
 
 							}
@@ -560,9 +559,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 487.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 7"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 487.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 7"
 								}
 
 							}
@@ -572,9 +571,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 531.5, 77.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 8"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 531.5, 77.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 8"
 								}
 
 							}
@@ -584,9 +583,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 414.5, 77.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 6"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 414.5, 77.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 6"
 								}
 
 							}
@@ -596,9 +595,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 5"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 374.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 5"
 								}
 
 							}
@@ -608,9 +607,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 259.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 4"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 259.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 4"
 								}
 
 							}
@@ -620,9 +619,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 190.5, 77.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 3"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 190.5, 77.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 3"
 								}
 
 							}
@@ -632,9 +631,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 144.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 2"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 144.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 2"
 								}
 
 							}
@@ -656,9 +655,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.5, 150.0, 98.0, 22.0 ],
-									"text" : "mtiid.casio-key 0"
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 29.5, 150.0, 86.0, 22.0 ],
+									"text" : "mt.casio-key 0"
 								}
 
 							}
@@ -1581,7 +1580,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mt.casio-key.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-05-buffers",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-04-buffers-and-samplers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

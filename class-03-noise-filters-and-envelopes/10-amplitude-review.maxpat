@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 99.0, 430.0, 80.0, 22.0 ],
-					"text" : "0.251182"
+					"text" : "0.251042"
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 444.5, 426.0, 64.0, 22.0 ],
-					"text" : "0.251114"
+					"text" : "0.251162"
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 694.0, 426.0, 86.0, 22.0 ],
-					"text" : "0.249964"
+					"text" : "0.249961"
 				}
 
 			}

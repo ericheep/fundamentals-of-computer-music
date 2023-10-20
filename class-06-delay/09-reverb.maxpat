@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -61,8 +61,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -399,7 +399,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "785.VMjLgfv....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TyLz3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYqXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAgEaUMTRSgzYD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHIjTvjEaYIWUFQELYwVVxUEaHYlXWkkdQolXz.SZHY2LR4DLhMDS14xPLcmXSwTLXMES4IVdMglKnI1YQcUV3fjPLQGUS0jctLDS14xTLcmZowjcpkFSzfjPHoVUFIldmY0Sn4RZKQCQo0jctLDS14xPNAiY4wjcXMjSyfjPHwVUVkkZIYEVoMmUOglKoszLtLjS14xPLYGRC4zcLkGS4oVZLkGRBgzbEwVXvTjQggCRBwDctjFRlomdgoVUV8DZDk1R1gjPHM2ZFQFS3DCVwASZHgGUS0DZtH0XuMVUZoVTGoENHITSx3RZHYFUWoERUYkVsclQigCRnwTLtjFR0MyPt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							"blob" : "732.VMjLgLs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNz3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYvXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAMSZUMTRSgDMC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMglKnI1YQcUV3fjPLQGVowDLpMkSzn1PNICQowDLLMkSwHVZHYFTVkkcQcjV3fjPLQGUogjYXYUVqEEaXcVSwnENHIDSzQUZHYldVgEcUcEVxASZHY2LR0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIES1oVZHYFUWo0UqYTV5clUOgFT40jcHIDRvrlQRs1ZwjkaQc0SngTZMYGR3sTNt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -421,7 +421,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "785.VMjLgfv....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TyLz3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYqXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAgEaUMTRSgzYD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHIjTvjEaYIWUFQELYwVVxUEaHYlXWkkdQolXz.SZHY2LR4DLhMDS14xPLcmXSwTLXMES4IVdMglKnI1YQcUV3fjPLQGUS0jctLDS14xTLcmZowjcpkFSzfjPHoVUFIldmY0Sn4RZKQCQo0jctLDS14xPNAiY4wjcXMjSyfjPHwVUVkkZIYEVoMmUOglKoszLtLjS14xPLYGRC4zcLkGS4oVZLkGRBgzbEwVXvTjQggCRBwDctjFRlomdgoVUV8DZDk1R1gjPHM2ZFQFS3DCVwASZHgGUS0DZtH0XuMVUZoVTGoENHITSx3RZHYFUWoERUYkVsclQigCRnwTLtjFR0MyPt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+										"blob" : "732.VMjLgLs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNz3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYvXTR5AkaA4hKtfjcTYGLDkkKDYlKE4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAMSZUMTRSgDMC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoU0Y2YjVmcmQgcVSEI1YMYUVMgiQYAycVgkd3vlXl4xQgAyXVoEcYUUV30zUZUGMV8DZDk1R3MiTMglKBIFdUEiXqEUaScFLVkENHgFRlI1UYoWTpIFMvjFR1MiTMglKnI1YQcUV3fjPLQGVowDLpMkSzn1PNICQowDLLMkSwHVZHYFTVkkcQcjV3fjPLQGUogjYXYUVqEEaXcVSwnENHIDSzQUZHYldVgEcUcEVxASZHY2LR0DZtH0T0EkUYgCRBwDctLkS1o1PLQiKS4TdXMESyvzTNgmZC0DZtHUXuc1QSUWSwnENHIES1oVZHYFUWo0UqYTV5clUOgFT40jcHIDRvrlQRs1ZwjkaQc0SngTZMYGR3sTNt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 									}
 ,
 									"fileref" : 									{
@@ -430,6 +430,42 @@
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "19d15094eaf0c2d82d17ad0641552061"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator_20221029.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "20b5660adc3791769f5e7b3e1d7cbff1"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ValhallaSpaceModulator",
+									"origin" : "ValhallaSpaceModulator.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ValhallaSpaceModulator",
+										"filename" : "ValhallaSpaceModulator_20221029_1.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "cce176a7fdf8c19bcb350f5a847d00e7"
 									}
 
 								}
@@ -505,8 +541,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -619,8 +655,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 94.0, 171.0, 22.0 ],
-									"text" : "loadmess ../audio/dreams.wav"
+									"patching_rect" : [ 210.0, 94.0, 173.0, 22.0 ],
+									"text" : "loadmess ../audio/dreams.mp3"
 								}
 
 							}
@@ -784,8 +820,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1147,8 +1183,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ValhallaSpaceModulator_20221029.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ValhallaSpaceModulator_20221029_1.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mt.relativetoabsolute.maxpat",
-				"bootpath" : "~/git/fundamentals-of-computer-music/class-06-delay",
+				"bootpath" : "~/git/fundamentals-of-computer-music/class-07-delay",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
