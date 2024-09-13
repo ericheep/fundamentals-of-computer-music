@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -176,6 +176,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -197,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 68.125, 596.0, 90.0 ],
-					"text" : "Starting out in Max involves building a vocabulary of objects. The ones below are just the ones that we've looked at today; they're the tip fo the iceberg, but also I use them in practically every patch I build.\n\nBuild something this week using every object on this page."
+					"text" : "The first step in learning Max/MSP requires us to build up our vocabulary of objects. The objects on this page are commonly used and will provide a solid foundation for future patches.\n\nBuild something this week using every object on this page."
 				}
 
 			}
